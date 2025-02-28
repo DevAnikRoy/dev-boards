@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwind CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <!-- font cdn -->
+    <!-- font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -44,7 +44,7 @@
 
     <!-- main section -->
 
-    <section class="flex gap-5">
+    <section class="flex gap-5 hidden">
         <!-- left big section -->
         <section class="w-3/4 bg-white rounded-xl p-3 mt-4">
             <!-- small card section -->
@@ -229,6 +229,45 @@
              </div>
 
         </section>
+    </section>
+
+    <!-- question section -->
+
+    <section class=" ">
+        <!-- question-1 -->
+        <div class="bg-white rounded-xl p-3 mt-4 ">
+            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-1:</span> What are the different ways to select an element in the DOM?</h4>
+            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> We can select an element from Dom with ID and CLASS. If we want to select an element with id then we select it like this way (getElementById()). And another one is Class. So if we want to select an element with class then we can call (getElementsByClass()). So here is the two ways i can remember right now that i used to get element from Dom.  </p>
+        </div>
+        <!-- question-2 -->
+        <div class="bg-white rounded-xl p-3 mt-4 ">
+            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-2:</span> What is the difference between innerHTML, innerText, and textContent ?</h4>
+            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> ok, so 1st innerHTML is used to get all the Html structure from Dom. Like we have target a button then we can see the button html structure by this innerHTML property. And then 2nd thing is innerText and textContent this is almost same things but the main difference is, with innerText we get only the main text from an element. But with the textContent we get other child text and main text if is it there any child text.  </p>
+        </div>
+        <!-- question-3 -->
+        <div class="bg-white rounded-xl p-3 mt-4 ">
+            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-3:</span> What is event delegation in the DOM?</h4>
+            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span>By this event in Dom we do any work with a targeted element. Like this way, think we have a button and we want to do that if we click the button then it will take another page. So this whole things like an event. Something is happening. So do this like this way 
+            
+            document.getElementById('btn').addEventListener('click', function(event){
+                event.preventDefault;
+                window.location.hre = '';
+            })
+
+            so this whole things is an event in Dom.
+            </p>
+        </div>
+        <!-- question-4 -->
+        <div class="bg-white rounded-xl p-3 mt-4 ">
+            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-4:</span> What is event bubbling in the DOM?</h4>
+            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> event bubbling is like a loop in Dom. When we run a event in dom then it start actually from the root element and go to until it find the child element i mean targeted element. After find the child then it start again come back to the root. So this things is bubbling in Dom. But i like to consider this bubbling as loop for my personal understanding. </p>
+        </div>
+        <!-- question-5 -->
+        <div class="bg-white rounded-xl p-3 mt-4 mb-4">
+            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-5:</span> How do you create, add, and remove elements using JavaScript?</h4>
+            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> To create an element we can use documetn.creatElelment(), for add an element appendChild() or jsut append(), and also same thing to remove an element we can use removeChild(), or just remove(). </p>
+        </div>
+
     </section>
 
 </body>
