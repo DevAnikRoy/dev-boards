@@ -21,254 +21,310 @@
 </head>
 
 <body class=" px-26 bg-[#F4F7FF]">
-    <!-- nav section -->
-    <section class="flex justify-between items-center bg-white rounded-xl p-3 mt-6">
-        <!-- nav left -->
-        <div class="flex justify-center items-center gap-2">
-            <img class="w-12" src="assets/logo.png" alt="dev-logo">
-            <h1 class="text-4xl font-light text-[#00303C]">Dev<span class="font-bold">Board</span></h1>
-        </div>
-        <!-- nev right -->
-        <div class="flex justify-center items-center gap-6">
-            <div class="flex justify-center items-center gap-3 bg-[#F4F7FF] px-4 py-1 rounded-full">
-                <img src="assets/checkbox.png" alt="checkbox-img">
-                <h1 class="text-3xl font-bold text-[#00303C]">23</h1>
+
+    <!-- 1st main section -->
+    <section class="">
+        <!-- nav section-1 -->
+        <section class="flex justify-between items-center bg-white rounded-xl p-3 mt-6">
+            <!-- nav left -->
+            <div class="flex justify-center items-center gap-2">
+                <img class="w-12" src="assets/logo.png" alt="dev-logo">
+                <h1 class="text-4xl font-light text-[#00303C]">Dev<span class="font-bold">Board</span></h1>
             </div>
-            <div class="bg-[#F4F7FF] p-2 rounded-full">
-                <img src="assets/theme-btn.png" alt="">
-            </div>
-        </div>
-
-    </section>
-
-
-    <!-- main section -->
-
-    <section class="flex gap-5 hidden">
-        <!-- left big section -->
-        <section class="w-3/4 bg-white rounded-xl p-3 mt-4">
-            <!-- small card section -->
-            <div class="flex justify-between items-center gap-5">
-                <!-- task Box -->
-                <div class="w-1/4 flex justify-center items-center bg-[#F4F7FF] rounded-xl py-4.5 px-3 gap-4 h-22">
-                    <div class="bg-white p-3 rounded-full">
-                        <img src="assets/checkbox.png" alt="">
-                    </div>
-                    <div>
-                        <p class="text-sm text-[#00303C]">Task Assigned</p>
-                        <h2 class="text-3xl font-bold text-[#00303C]">05</h2>
-                    </div>
+            <!-- nev right -->
+            <div class="flex justify-center items-center gap-6">
+                <div class="flex justify-center items-center gap-3 bg-[#F4F7FF] px-4 py-1 rounded-full">
+                    <img src="assets/checkbox.png" alt="checkbox-img">
+                    <h1 class="text-3xl font-bold text-[#00303C]">23</h1>
                 </div>
-                <!-- discover Box -->
-                <div class="w-2/4 flex justify-start items-center bg-linear-to-r from-[#3A54FD] to-[#98A5F8] rounded-xl py-3 px-3 pl-10 gap-5 h-22">
-                    <img src="assets/board.png" alt="">
-                    <p class="text-white text-lg/8 ">Discover Something <br> New Today!</p>
-                </div>
-                <!-- date Box -->
-                <div class="w-1/4 flex justify-center items-center bg-[#F4F7FF] rounded-xl py-4.5 px-3 gap-4 h-22">
-                    <div class="bg-white rounded-full p-3">
-                        <img src="assets/calender.png" alt="">
-                    </div>
-                    <p class="text-lg text-[#00303C]">Wed,<br><span class="font-bold text-[#00303C]">28 Jul 2025</span></p>
+                <div class="bg-[#F4F7FF] p-2 rounded-full">
+                    <img src="assets/theme-btn.png" alt="">
                 </div>
             </div>
-            <!-- big card section -->
-             <div class="mt-10 grid grid-cols-3 gap-5">
-                <!-- card-1 -->
-                 <div class=" bg-[#F4F7FF] p-5 rounded-xl">
-                    <!-- tag-text -->
-                    <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
-                        <p class="text-xs text-center">ShopEase</p>
-                    </div>
-                    <!-- heading -->
-                    <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Fix Mobile Button Issue </p>
-                    <!-- paragraph -->
-                    <div class="bg-white p-2 rounded-lg">
-                        <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <!-- bottom -->
-                     <div class="mt-4 flex justify-between items-center">
-                        <!-- bottom-left -->
-                         <div>
-                            <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
-                            <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
-                         </div>
-                         <!-- bottom-right -->
-                          <button class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
-                     </div>
-                 </div>
-                <!-- card-2 -->
-                <div class=" bg-[#F4F7FF] p-5 rounded-xl">
-                    <!-- tag-text -->
-                    <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
-                        <p class="text-xs text-center">CloudSync</p>
-                    </div>
-                    <!-- heading -->
-                    <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Add Dark Mode</p>
-                    <!-- paragraph -->
-                    <div class="bg-white p-2 rounded-lg">
-                        <p class="text-[12px] text-[#BFBFBF]">Store the user's preference in localStorage</p>
-                    </div>
-                    <!-- bottom -->
-                     <div class="mt-4 flex justify-between items-center">
-                        <!-- bottom-left -->
-                         <div>
-                            <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
-                            <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
-                         </div>
-                         <!-- bottom-right -->
-                          <button class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
-                     </div>
-                 </div>
-                <!-- card-3 -->
-                <div class=" bg-[#F4F7FF] p-5 rounded-xl">
-                    <!-- tag-text -->
-                    <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
-                        <p class="text-xs text-center">SwiftPay</p>
-                    </div>
-                    <!-- heading -->
-                    <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Optimize  Home page</p>
-                    <!-- paragraph -->
-                    <div class="bg-white p-2 rounded-lg">
-                        <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <!-- bottom -->
-                     <div class="mt-4 flex justify-between items-center">
-                        <!-- bottom-left -->
-                         <div>
-                            <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
-                            <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
-                         </div>
-                         <!-- bottom-right -->
-                          <button class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
-                     </div>
-                 </div>
-                <!-- card-4 -->
-                <div class=" bg-[#F4F7FF] p-5 rounded-xl">
-                    <!-- tag-text -->
-                    <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
-                        <p class="text-xs text-center">Meta</p>
-                    </div>
-                    <!-- heading -->
-                    <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Add new emoji 🤲</p>
-                    <!-- paragraph -->
-                    <div class="bg-white p-2 rounded-lg">
-                        <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <!-- bottom -->
-                     <div class="mt-4 flex justify-between items-center">
-                        <!-- bottom-left -->
-                         <div>
-                            <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
-                            <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
-                         </div>
-                         <!-- bottom-right -->
-                          <button class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
-                     </div>
-                 </div>
-                <!-- card-5 -->
-                <div class=" bg-[#F4F7FF] p-5 rounded-xl">
-                    <!-- tag-text -->
-                    <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
-                        <p class="text-xs text-center">Google LLC</p>
-                    </div>
-                    <!-- heading -->
-                    <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Integrate OpenAI API</p>
-                    <!-- paragraph -->
-                    <div class="bg-white p-2 rounded-lg">
-                        <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <!-- bottom -->
-                     <div class="mt-4 flex justify-between items-center">
-                        <!-- bottom-left -->
-                         <div>
-                            <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
-                            <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
-                         </div>
-                         <!-- bottom-right -->
-                          <button class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
-                     </div>
-                 </div>
-                <!-- card-6 -->
-                <div class=" bg-[#F4F7FF] p-5 rounded-xl">
-                    <!-- tag-text -->
-                    <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
-                        <p class="text-xs text-center">Glassdoar</p>
-                    </div>
-                    <!-- heading -->
-                    <p class="mt-3 mb-3 text-[18.6px] font-semibold text-[#00303C]">Improve Job searching</p>
-                    <!-- paragraph -->
-                    <div class="bg-white p-2 rounded-lg">
-                        <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
-                    </div>
-                    <!-- bottom -->
-                     <div class="mt-4 flex justify-between items-center">
-                        <!-- bottom-left -->
-                         <div>
-                            <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
-                            <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
-                         </div>
-                         <!-- bottom-right -->
-                          <button class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
-                     </div>
-                 </div>
-             </div>
 
         </section>
-        <!-- right small section -->
-        <section class="w-1/4 min-h-screen bg-white rounded-xl p-3 mt-4">
-            <!-- top item -->
-             <div class="flex flex-col justify-center items-center gap-4">
-                <!-- heading -->
-                <div class="flex justify-center items-center gap-4">
-                    <img src="assets/activity.png" alt="">
-                    <p class="text-lg">Activity Log</p>
+        <!-- cards & activity section -->
+        <section class="flex gap-5">
+            <!-- all cards section -->
+            <section class="w-3/4 bg-white rounded-xl p-3 mt-4">
+                <!-- small card section -->
+                <div class="flex justify-between items-center gap-5">
+                    <!-- task Box -->
+                    <div class="w-1/4 flex justify-center items-center bg-[#F4F7FF] rounded-xl py-4.5 px-3 gap-4 h-22">
+                        <div class="bg-white p-3 rounded-full">
+                            <img src="assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-sm text-[#00303C]">Task Assigned</p>
+                            <h2 class="text-3xl font-bold text-[#00303C]">05</h2>
+                        </div>
+                    </div>
+                    <!-- discover Box -->
+                    <div
+                        class="w-2/4 flex justify-start items-center bg-linear-to-r from-[#3A54FD] to-[#98A5F8] rounded-xl py-3 px-3 pl-10 gap-5 h-22">
+                        <img src="assets/board.png" alt="">
+                        <p class="text-white text-lg/8 ">Discover Something <br> New Today!</p>
+                    </div>
+                    <!-- date Box -->
+                    <div class="w-1/4 flex justify-center items-center bg-[#F4F7FF] rounded-xl py-4.5 px-3 gap-4 h-22">
+                        <div class="bg-white rounded-full p-3">
+                            <img src="assets/calender.png" alt="">
+                        </div>
+                        <p class="text-lg text-[#00303C]">Wed,<br><span class="font-bold text-[#00303C]">28 Jul
+                                2025</span>
+                        </p>
+                    </div>
                 </div>
-                <!-- button -->
-                <button class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-[#F4F7FF] hover:text-[#3752FD] hover:font-semibold">Clear History</button>
-             </div>
+                <!-- big card section -->
+                <div class="mt-10 grid grid-cols-3 gap-5">
+                    <!-- card-1 -->
+                    <div class=" bg-[#F4F7FF] p-5 rounded-xl">
+                        <!-- tag-text -->
+                        <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
+                            <p class="text-xs text-center">ShopEase</p>
+                        </div>
+                        <!-- heading -->
+                        <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Fix Mobile Button Issue </p>
+                        <!-- paragraph -->
+                        <div class="bg-white p-2 rounded-lg">
+                            <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
+                        </div>
+                        <!-- bottom -->
+                        <div class="mt-4 flex justify-between items-center">
+                            <!-- bottom-left -->
+                            <div>
+                                <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
+                                <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
+                            </div>
+                            <!-- bottom-right -->
+                            <button
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
+                        </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class=" bg-[#F4F7FF] p-5 rounded-xl">
+                        <!-- tag-text -->
+                        <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
+                            <p class="text-xs text-center">CloudSync</p>
+                        </div>
+                        <!-- heading -->
+                        <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Add Dark Mode</p>
+                        <!-- paragraph -->
+                        <div class="bg-white p-2 rounded-lg">
+                            <p class="text-[12px] text-[#BFBFBF]">Store the user's preference in localStorage</p>
+                        </div>
+                        <!-- bottom -->
+                        <div class="mt-4 flex justify-between items-center">
+                            <!-- bottom-left -->
+                            <div>
+                                <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
+                                <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
+                            </div>
+                            <!-- bottom-right -->
+                            <button
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
+                        </div>
+                    </div>
+                    <!-- card-3 -->
+                    <div class=" bg-[#F4F7FF] p-5 rounded-xl">
+                        <!-- tag-text -->
+                        <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
+                            <p class="text-xs text-center">SwiftPay</p>
+                        </div>
+                        <!-- heading -->
+                        <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Optimize Home page</p>
+                        <!-- paragraph -->
+                        <div class="bg-white p-2 rounded-lg">
+                            <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
+                        </div>
+                        <!-- bottom -->
+                        <div class="mt-4 flex justify-between items-center">
+                            <!-- bottom-left -->
+                            <div>
+                                <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
+                                <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
+                            </div>
+                            <!-- bottom-right -->
+                            <button
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
+                        </div>
+                    </div>
+                    <!-- card-4 -->
+                    <div class=" bg-[#F4F7FF] p-5 rounded-xl">
+                        <!-- tag-text -->
+                        <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
+                            <p class="text-xs text-center">Meta</p>
+                        </div>
+                        <!-- heading -->
+                        <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Add new emoji 🤲</p>
+                        <!-- paragraph -->
+                        <div class="bg-white p-2 rounded-lg">
+                            <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
+                        </div>
+                        <!-- bottom -->
+                        <div class="mt-4 flex justify-between items-center">
+                            <!-- bottom-left -->
+                            <div>
+                                <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
+                                <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
+                            </div>
+                            <!-- bottom-right -->
+                            <button
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
+                        </div>
+                    </div>
+                    <!-- card-5 -->
+                    <div class=" bg-[#F4F7FF] p-5 rounded-xl">
+                        <!-- tag-text -->
+                        <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
+                            <p class="text-xs text-center">Google LLC</p>
+                        </div>
+                        <!-- heading -->
+                        <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Integrate OpenAI API</p>
+                        <!-- paragraph -->
+                        <div class="bg-white p-2 rounded-lg">
+                            <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
+                        </div>
+                        <!-- bottom -->
+                        <div class="mt-4 flex justify-between items-center">
+                            <!-- bottom-left -->
+                            <div>
+                                <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
+                                <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
+                            </div>
+                            <!-- bottom-right -->
+                            <button
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
+                        </div>
+                    </div>
+                    <!-- card-6 -->
+                    <div class=" bg-[#F4F7FF] p-5 rounded-xl">
+                        <!-- tag-text -->
+                        <div class="w-2/5 bg-white py-2 px-2 rounded-lg">
+                            <p class="text-xs text-center">Glassdoar</p>
+                        </div>
+                        <!-- heading -->
+                        <p class="mt-3 mb-3 text-[18.6px] font-semibold text-[#00303C]">Improve Job searching</p>
+                        <!-- paragraph -->
+                        <div class="bg-white p-2 rounded-lg">
+                            <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
+                        </div>
+                        <!-- bottom -->
+                        <div class="mt-4 flex justify-between items-center">
+                            <!-- bottom-left -->
+                            <div>
+                                <p class="text-[11px] text-[#F4F7FF ]">Deadline</p>
+                                <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
+                            </div>
+                            <!-- bottom-right -->
+                            <button
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold">Completed</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- activity section -->
+            <section class="w-1/4 min-h-screen bg-white rounded-xl p-3 mt-4">
+                <!-- top item -->
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <!-- heading -->
+                    <div class="flex justify-center items-center gap-4">
+                        <img src="assets/activity.png" alt="">
+                        <p class="text-lg">Activity Log</p>
+                    </div>
+                    <!-- button -->
+                    <button
+                        class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-[#F4F7FF] hover:text-[#3752FD] hover:font-semibold">Clear
+                        History
+                    </button>
+                </div>
+
+            </section>
+        </section>
+    </section>
+
+
+
+    <!--*********************************************-->
+    <!--       second part starting from here        -->
+    <!--*********************************************-->
+
+    <!-- 2nd main section -->
+    <section class="">
+        <!-- nav section-2 -->
+        <section class="flex justify-between items-center bg-white rounded-xl p-3 mt-6">
+            <!-- nav left -->
+            <div class="flex justify-center items-center gap-2">
+                <img class="w-12" src="assets/logo.png" alt="dev-logo">
+                <h1 class="text-4xl font-light text-[#00303C]">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <!-- button -->
+            <button
+                class="text-[25px] text-white bg-[#3752FD] py-1 px-6 rounded-md hover:bg-[#F4F7FF] hover:text-[#3752FD] hover:font-semibold">Return
+            </button>
+        </section>
+        <!-- question section -->
+        <section class=" ">
+            <!-- question-1 -->
+            <div class="bg-white rounded-xl p-3 mt-4 ">
+                <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-1:</span> What
+                    are the different ways to select an element in the DOM?</h4>
+                <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> We can select an element from Dom with
+                    ID and CLASS. If we want to select an element with id then we select it like this way
+                    (getElementById()). And another one is Class. So if we want to select an element with class then we
+                    can call (getElementsByClass()). So here is the two ways i can remember right now that i used to get
+                    element from Dom. </p>
+            </div>
+            <!-- question-2 -->
+            <div class="bg-white rounded-xl p-3 mt-4 ">
+                <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-2:</span> What
+                    is the difference between innerHTML, innerText, and textContent ?</h4>
+                <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> ok, so 1st innerHTML is used to get all
+                    the Html structure from Dom. Like we have target a button then we can see the button html structure
+                    by this innerHTML property. And then 2nd thing is innerText and textContent this is almost same
+                    things but the main difference is, with innerText we get only the main text from an element. But
+                    with the textContent we get other child text and main text if is it there any child text. </p>
+            </div>
+            <!-- question-3 -->
+            <div class="bg-white rounded-xl p-3 mt-4 ">
+                <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-3:</span> What
+                    is event delegation in the DOM?</h4>
+                <p class="text-base"><Span class="text-xl font-bold">Ans:</Span>By this event in Dom we do any work with
+                    a targeted element. Like this way, think we have a button and we want to do that if we click the
+                    button then it will take another page. So this whole things like an event. Something is happening.
+                    So do this like this way
+
+                    document.getElementById('btn').addEventListener('click', function(event){
+                    event.preventDefault;
+                    window.location.hre = '';
+                    })
+
+                    so this whole things is an event in Dom.
+                </p>
+            </div>
+            <!-- question-4 -->
+            <div class="bg-white rounded-xl p-3 mt-4 ">
+                <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-4:</span> What
+                    is event bubbling in the DOM?</h4>
+                <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> event bubbling is like a loop in Dom.
+                    When we run a event in dom then it start actually from the root element and go to until it find the
+                    child element i mean targeted element. After find the child then it start again come back to the
+                    root. So this things is bubbling in Dom. But i like to consider this bubbling as loop for my
+                    personal understanding. </p>
+            </div>
+            <!-- question-5 -->
+            <div class="bg-white rounded-xl p-3 mt-4 mb-4">
+                <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-5:</span> How
+                    do you create, add, and remove elements using JavaScript?</h4>
+                <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> To create an element we can use
+                    documetn.creatElelment(), for add an element appendChild() or jsut append(), and also same thing to
+                    remove an element we can use removeChild(), or just remove(). </p>
+            </div>
 
         </section>
     </section>
 
-    <!-- question section -->
-
-    <section class=" ">
-        <!-- question-1 -->
-        <div class="bg-white rounded-xl p-3 mt-4 ">
-            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-1:</span> What are the different ways to select an element in the DOM?</h4>
-            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> We can select an element from Dom with ID and CLASS. If we want to select an element with id then we select it like this way (getElementById()). And another one is Class. So if we want to select an element with class then we can call (getElementsByClass()). So here is the two ways i can remember right now that i used to get element from Dom.  </p>
-        </div>
-        <!-- question-2 -->
-        <div class="bg-white rounded-xl p-3 mt-4 ">
-            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-2:</span> What is the difference between innerHTML, innerText, and textContent ?</h4>
-            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> ok, so 1st innerHTML is used to get all the Html structure from Dom. Like we have target a button then we can see the button html structure by this innerHTML property. And then 2nd thing is innerText and textContent this is almost same things but the main difference is, with innerText we get only the main text from an element. But with the textContent we get other child text and main text if is it there any child text.  </p>
-        </div>
-        <!-- question-3 -->
-        <div class="bg-white rounded-xl p-3 mt-4 ">
-            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-3:</span> What is event delegation in the DOM?</h4>
-            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span>By this event in Dom we do any work with a targeted element. Like this way, think we have a button and we want to do that if we click the button then it will take another page. So this whole things like an event. Something is happening. So do this like this way 
-            
-            document.getElementById('btn').addEventListener('click', function(event){
-                event.preventDefault;
-                window.location.hre = '';
-            })
-
-            so this whole things is an event in Dom.
-            </p>
-        </div>
-        <!-- question-4 -->
-        <div class="bg-white rounded-xl p-3 mt-4 ">
-            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-4:</span> What is event bubbling in the DOM?</h4>
-            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> event bubbling is like a loop in Dom. When we run a event in dom then it start actually from the root element and go to until it find the child element i mean targeted element. After find the child then it start again come back to the root. So this things is bubbling in Dom. But i like to consider this bubbling as loop for my personal understanding. </p>
-        </div>
-        <!-- question-5 -->
-        <div class="bg-white rounded-xl p-3 mt-4 mb-4">
-            <h4 class="text-xl text-[#3752FD] font-medium mb-2"><span class="font-extrabold">Question-5:</span> How do you create, add, and remove elements using JavaScript?</h4>
-            <p class="text-base"><Span class="text-xl font-bold">Ans:</Span> To create an element we can use documetn.creatElelment(), for add an element appendChild() or jsut append(), and also same thing to remove an element we can use removeChild(), or just remove(). </p>
-        </div>
-
-    </section>
 
 </body>
 
