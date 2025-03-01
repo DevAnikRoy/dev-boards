@@ -35,9 +35,9 @@
             <div class="flex justify-center items-center gap-6">
                 <div class="flex justify-center items-center gap-3 bg-[#F4F7FF] px-4 py-1 rounded-full">
                     <img src="assets/checkbox.png" alt="checkbox-img">
-                    <h1 class="text-3xl font-bold text-[#00303C]">23</h1>
+                    <h1 id="nav-number" class="text-3xl font-bold text-[#00303C]">23</h1>
                 </div>
-                <div class="bg-[#F4F7FF] p-2 rounded-full hover:cursor-pointer">
+                <div id="change-color" class="bg-[#F4F7FF] p-2 rounded-full hover:cursor-pointer">
                     <img src="assets/theme-btn.png" alt="">
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         </div>
                         <div>
                             <p class="text-sm text-[#00303C]">Task Assigned</p>
-                            <h2 class="text-3xl font-bold text-[#00303C]">05</h2>
+                            <h2 id="task-number" class="text-3xl font-bold text-[#00303C]">6</h2>
                         </div>
                     </div>
                     <!-- discover Box -->
@@ -83,7 +83,7 @@
                             <p class="text-xs text-center">ShopEase</p>
                         </div>
                         <!-- heading -->
-                        <p class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Fix Mobile Button Issue </p>
+                        <p id="card-1-heading" class="mt-3 mb-3 text-[19px] font-semibold text-[#00303C]">Fix Mobile Button Issue </p>
                         <!-- paragraph -->
                         <div class="bg-white p-2 rounded-lg">
                             <p class="text-[12px] text-[#BFBFBF]">Debug using Chrome DevTools, check for overlapping</p>
@@ -96,8 +96,8 @@
                                 <p class="text-[12px] text-[#00303C] font-semibold">21 March 2025</p>
                             </div>
                             <!-- bottom-right -->
-                            <button
-                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer">Completed</button>
+                            <button id="card-1-btn"
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed">Completed</button>
                         </div>
                     </div>
                     <!-- card-2 -->
@@ -121,7 +121,7 @@
                             </div>
                             <!-- bottom-right -->
                             <button
-                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer">Completed</button>
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed">Completed</button>
                         </div>
                     </div>
                     <!-- card-3 -->
@@ -145,7 +145,7 @@
                             </div>
                             <!-- bottom-right -->
                             <button
-                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer">Completed</button>
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed">Completed</button>
                         </div>
                     </div>
                     <!-- card-4 -->
@@ -169,7 +169,7 @@
                             </div>
                             <!-- bottom-right -->
                             <button
-                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer">Completed</button>
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed">Completed</button>
                         </div>
                     </div>
                     <!-- card-5 -->
@@ -193,7 +193,7 @@
                             </div>
                             <!-- bottom-right -->
                             <button
-                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer">Completed</button>
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed">Completed</button>
                         </div>
                     </div>
                     <!-- card-6 -->
@@ -217,14 +217,14 @@
                             </div>
                             <!-- bottom-right -->
                             <button
-                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer">Completed</button>
+                                class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-white hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed">Completed</button>
                         </div>
                     </div>
                 </div>
 
             </section>
             <!-- activity section -->
-            <section class="w-1/4 min-h-screen bg-white rounded-xl p-3 mt-4">
+            <section id="activity-section" class="w-1/4 min-h-screen bg-white rounded-xl p-3 mt-4">
                 <!-- top item -->
                 <div class="flex flex-col justify-center items-center gap-4">
                     <!-- heading -->
@@ -233,10 +233,14 @@
                         <p class="text-lg">Activity Log</p>
                     </div>
                     <!-- button -->
-                    <button
+                    <button id="clear-history"
                         class="text-[13px] text-white bg-[#3752FD] py-2 px-2 rounded-md hover:bg-[#F4F7FF] hover:text-[#3752FD] hover:font-semibold hover:cursor-pointer">Clear
                         History
                     </button>
+                    <!-- blank div for remove activity -->
+                    <div id="remove-activity">
+
+                    </div>
                 </div>
 
             </section>
@@ -325,6 +329,9 @@
     </section>
 
 <script src="script/time and date.js"></script>
+<script src="script/bgColor.js"></script>
+<script src="script/card.js"></script>
+<script src="script/clearHistory.js"></script>
 <script src="script/toggle.js"></script>
 <script src="script/utility.js"></script>
 <script src="tailwind.config.js"></script>
