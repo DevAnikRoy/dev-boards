@@ -13,19 +13,3 @@ function updateDate(){
     dateElement.textContent = date;
 }
 updateDate()
-
-// for time
-// function formatTime(){
-    
-    const getTime = new Date();
-    const currentTime = getTime.toLocaleString();
-    
-//     return currentTime;
-// }
-// function updateTime(){
-//     const getDate = new Date();
-//     const date = formatTime(getDate);
-//     const dateElement = document.getElementById('date');
-//     dateElement.textContent = date;
-// }
-// updateDate()
